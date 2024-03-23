@@ -1,13 +1,15 @@
 {
   "name": "m.asif-number-guessin-game",
-  "version": "1.0.1",
+  "version": "1.1.9",
   "description": "CLI Simple Gassing Game",
   "main": "index.js",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
-"bin": "index.js",
+  "bin": {
+    "m.asif-number-guessin-game": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

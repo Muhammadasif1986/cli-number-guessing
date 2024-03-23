@@ -22,9 +22,16 @@ if(anwers.userGuesNumber== rendomNumber){
     }]);
     if(anwers.userGuesNumber== rendomNumber){
         console.log('Congratulate  you win');
-        console.log(` Nubmber is !\t${rendomNumber}`);
-
-}}
+        console.log(` Nubmber is !\t${rendomNumber}`);}
+        
+        else if(anwers.userGuesNumber> 6){
+            console.log('You was selected wrong Number! please Selcet Number between 1 to 6 ');
+        }
+        else{
+            console.log('you guess wrong Number ! Game is Over');
+            console.log(` Nubmber is !\t${rendomNumber}`);
+        }
+}
 else if(anwers.userGuesNumber> 6){
     console.log('You was selected wrong Number! please Selcet Number between 1 to 6 ');
 }
