@@ -1,21 +1,24 @@
 {
-  "name": "m.asif-number-guessing-game",
-  "version": "1.1.0",
-  "description": "CLI Simple Guessing Game",
+  "name": "asif.number-guessing-game",
+  "version": "1.1.1",
+  "description": "number Guessing Game",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "asif.number-guessing-game": "index.js"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "bin": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.1",
-    "inquirer": "^9.2.16"
+    "inquirer": "^9.2.16",
+    "number-guessing-game-change": "^4.0.6"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"

@@ -1,9 +1,8 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
 import inquirer from "inquirer";
-
-const rendomNumber : number = Math.floor(Math.random()*6+1);
-const anwers = await inquirer.prompt([{
+let rendomNumber : number = Math.floor(Math.random()*6+1);
+let anwers = await inquirer.prompt([{
 
     name:"userGuesNumber",
     type: 'number',
@@ -12,9 +11,9 @@ const anwers = await inquirer.prompt([{
 if(anwers.userGuesNumber== rendomNumber){
     console.log('Congratulate  you choose a Right Number');
     console.log(` Nubmber is !\t${rendomNumber}`);
-
+  
     
-    const anwers = await inquirer.prompt([{
+    let anwers = await inquirer.prompt([{
 
         name:"userGuesNumber",
         type: 'number',
