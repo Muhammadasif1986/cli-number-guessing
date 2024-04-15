@@ -1,6 +1,6 @@
 {
-  "name": "masif-number-guessing-game",
-  "version": "2.1.2",
+  "name": "m19h-number-guessing-game",
+  "version": "1.0.1",
   "description": "CLI-Number-Guessing",
   "main": "index.js",
   "type": "module",
@@ -12,11 +12,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Asif",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.16",
-    "number-guessing-game-change": "^4.0.6"
+    "inquirer": "^9.2.16"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
